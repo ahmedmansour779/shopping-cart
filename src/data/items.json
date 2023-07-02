@@ -22,5 +22,35 @@
         "name": "Car",
         "price": 14000,
         "imgUrl": "/src/shared/car.jpg"
+    },
+    {
+        "id": 5,
+        "name": "camera",
+        "price": 5000,
+        "imgUrl": "/src/shared/camera.jpg"
+    },
+    {
+        "id": 6,
+        "name": "handfree",
+        "price": 300,
+        "imgUrl": "/src/shared/handfree.jpg"
+    },
+    {
+        "id": 7,
+        "name": "headset",
+        "price": 400,
+        "imgUrl": "/src/shared/headset.jpg"
+    },
+    {
+        "id": 8,
+        "name": "phone",
+        "price": 3000,
+        "imgUrl": "/src/shared/phone.jpg"
+    },
+    {
+        "id": 9,
+        "name": "food",
+        "price": 100,
+        "imgUrl": "/src/shared/photo-1546069901-ba9599a7e63c.jpg"
     }
 ]
