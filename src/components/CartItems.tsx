@@ -11,13 +11,13 @@ export function CartItem({ id, quantity }: CartItemProps) {
 
     return (
         <Stack direction="horizontal" gap={2} className="d-flex align-items-center flex-wrap justify-content-between">
-            <img
-                src={item.imgUrl}
-                style={{ width: "125px", height: "75px", objectFit: "cover" }}
-                alt={item.name}
-            />
-            <div className="d-flex flex-wrap justify-content-space-between gap-2 align-items-start">
-                <div className="me-auto">
+            <div className="d-flex flex-wrap justify-content-space-between gap-2 align-items-start flex-row">
+                <img
+                    src={item.imgUrl}
+                    style={{ width: "125px", height: "75px", objectFit: "cover" }}
+                    alt={item.name}
+                />
+                <div className="me-auto ml-1 mt-2">
                     <div>
                         {item.name}{" "}
                         {quantity > 1 && (
@@ -30,16 +30,16 @@ export function CartItem({ id, quantity }: CartItemProps) {
                         {formatCurrency(item.price)}
                     </div>
                 </div>
-                <div className="d-flex">
-                    <div> {formatCurrency(item.price * quantity)}</div>
-                    <Button
-                        variant="outline-danger"
-                        size="sm"
-                        onClick={() => removeFromCart(item.id)}
-                    >
-                        &times;
-                    </Button>
-                </div>
+            </div>
+            <div className="d-flex">
+                <div> {formatCurrency(item.price * quantity)}</div>
+                <Button
+                    variant="outline-danger"
+                    size="sm"
+                    onClick={() => removeFromCart(item.id)}
+                >
+                    &times;
+                </Button>
             </div>
         </Stack>
     )
