@@ -1,5 +1,4 @@
 {
-  "homepage": "https://ahmedmansour779.github.io/shopping-cart",
   "name": "shopping-cart",
   "private": true,
   "version": "0.0.0",
@@ -9,9 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "update": "ncu -u",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "update": "ncu -u"
   },
   "dependencies": {
     "@mantine/core": "^6.0.15",
