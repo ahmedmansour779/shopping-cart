@@ -12,9 +12,9 @@ function App() {
         <ShoppingCartProvider>
             <NavBar />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/store" element={<Store />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/shopping-cart/" element={<Home />} />
+                <Route path="/shopping-cart/store" element={<Store />} />
+                <Route path="/shopping-cart/about" element={<About />} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
         </ShoppingCartProvider>

@@ -8,13 +8,13 @@ function NavBar() {
         <NavbarBs sticky="top" className="bg-white shadow-sm pt-3 pb-3">
             <Container className="flex-wrap">
                 <Nav className="me-auto fs-5">
-                    <Nav.Link to="/" as={NavLink}>
+                    <Nav.Link to="/shopping-cart/" as={NavLink}>
                         Home
                     </Nav.Link>
-                    <Nav.Link to="/store" as={NavLink}>
+                    <Nav.Link to="/shopping-cart/store" as={NavLink}>
                         Store
                     </Nav.Link>
-                    <Nav.Link to="/about" as={NavLink}>
+                    <Nav.Link to="/shopping-cart/about" as={NavLink}>
                         About
                     </Nav.Link>
                 </Nav>
