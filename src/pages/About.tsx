@@ -9,16 +9,16 @@ function About() {
             </div>
             <div>
                 <h3>About our Shopping</h3>
-                <p> Discover a world of shopping at your fingertips. </p>
-                <p> Experience the joy of shopping with us. </p>
-                <p> Indulge in a seamless shopping experience with our wide selection of products. </p>
-                <p> Find everything you need and more in our one-stop shopping destination. </p>
-                <p> We pride ourselves on providing top-notch customer service and satisfaction. </p>
-                <p> Unleash your shopping desires and explore our vast collection of high-quality products. </p>
-                <p> Shop with confidence knowing that we prioritize your convenience and security. </p>
-                <p> We strive to exceed your expectations with our exceptional shopping experience. </p>
-                <p> Join our community of satisfied shoppers and let us cater to your every need. </p>
-                <p> Experience the thrill of finding the perfect item amidst our carefully curated selection. </p>
+                <p>Discover a world of shopping at your fingertips.</p>
+                <p>Experience the joy of shopping with us.</p>
+                <p>Indulge in a seamless shopping experience with our wide selection of products.</p>
+                <p>Find everything you need and more in our one-stop shopping destination.</p>
+                <p>We pride ourselves on providing top-notch customer service and satisfaction.</p>
+                <p>Unleash your shopping desires and explore our vast collection of high-quality products.</p>
+                <p>Shop with confidence knowing that we prioritize your convenience and security.</p>
+                <p>We strive to exceed your expectations with our exceptional shopping experience.</p>
+                <p>Join our community of satisfied shoppers and let us cater to your every need.</p>
+                <p>Experience the thrill of finding the perfect item amidst our carefully curated selection.</p>
             </div>
             <div>
                 <h3>About developer</h3>
