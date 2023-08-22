@@ -12,7 +12,7 @@ function Home() {
                     "Welcome to our Online Store! Discover a world of convenience and endless possibilities right at your fingertips. Whether you're searching for the latest fashion trends, high-quality electronics, or unique home decor, we have it all. Explore our vast selection of products, curated with care to meet your needs and desires. Enjoy a seamless shopping experience, easy navigation, and secure transactions. We're here to provide you with exceptional customer service and ensure your satisfaction. Start browsing now and let us help you find exactly what you're looking for. Happy shopping!"
                 </p>
                 <button>
-                    <Link to={"/store"} style={{ textDecoration: "none" }}>
+                    <Link to={"/shopping-cart/store"} style={{ textDecoration: "none" }}>
                         Explore our products
                     </Link>
                 </button>
