@@ -1,6 +1,6 @@
 # @format
 
-name: Deploy
+name: shopping-cart
 
 on:
     push:
